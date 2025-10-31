@@ -10,9 +10,6 @@ func isPalindrome(s string) bool {
     scrubbed = strings.ReplaceAll(scrubbed, " ", "")
     rev := reverse(scrubbed)
 
-    fmt.Println(scrubbed)
-    fmt.Println(rev)
-
     return scrubbed == rev
 }
 
